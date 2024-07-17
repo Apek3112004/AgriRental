@@ -1,0 +1,1 @@
+document.querySelectorAll('video').playbackRate = 0.4;

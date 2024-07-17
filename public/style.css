@@ -1,0 +1,40 @@
+.navbar{
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+    justify-content:space-around;
+    background-color:#212529;
+    color:#FFFFFF;
+    margin:10px;
+    height:80px;
+    align-items: center;
+    font-size: 1rem;
+}
+
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+a:visited {
+    color:white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+a:hover {
+    color: lightgreen;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+button{
+    background-color: #212529;
+}
+.drop-down{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+

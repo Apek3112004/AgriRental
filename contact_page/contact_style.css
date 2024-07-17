@@ -1,0 +1,32 @@
+.outer_box{
+    height:100vh;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    padding: 10px;
+}
+
+body{
+    background-color: rgb(31, 31, 32);
+}
+
+@media screen and (max-width: 900px){
+    .outer_box{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+        flex-wrap: nowrap;
+        width: 100%;
+    }
+
+    video{
+        width: 100%;
+        margin:0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
